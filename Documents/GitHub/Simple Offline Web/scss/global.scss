@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,400italic);
+
+@import "nav";
+@import "tabs";
+@import "libr";
+@import "skz";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main-header {
+  text-align: center;
+  background-color: rgb(214, 173, 230);
+  color: white;
+  padding: 3rem 5rem 3rem;
+  h1 {
+    margin: 0 0 0.5rem 0;
+  }
+  a {
+    color: white;
+  }
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0 0 1rem 0;
+}
+p {
+  margin: 0 0 0.5rem 0;
+}
+h4{
+  font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+  color: rgb(245,229,229);
+}
+
+main.tabs {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: black;
+  border-color: white;
+}
+
+.speaker-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  li {
+    width: 32%;
+    margin: 0 0 4% 0;
+    text-align: center;
+    border-color: 2px solid white;
+    border-radius: 4px;
+    padding: 40px 10px;
+    span {
+      display: block;
+    }
+  }
+}
+
+.schedule {
+  dt {
+    font-weight: bold;
+  }
+  dt ~ dt {
+    margin-top: 1rem;
+  }
+}

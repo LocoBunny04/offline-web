@@ -1,0 +1,16 @@
+{
+    "name": "Korean Pop Fanfics",
+    "short_name": "KO-FF",
+    "description": "Complation of stories for offline viewing.",
+    "dir": "ltr",
+    "lang": "en",
+    "theme_color": "##78005E",
+    "background_color": "##78005E",
+    "display": "standalone",
+    "orientation": "natural",
+    "start_url": "/",
+    "categories": ["technology", "web"]
+
+  
+  }
+  
