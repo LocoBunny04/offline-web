@@ -1,0 +1,47 @@
+
+    *{
+        margin: 0%;
+        padding: 0.001%;
+        padding-bottom: 0%;
+        font-family: cursive;
+        box-sizing: border-box;
+        background-color: black;
+        background-attachment: 0px;
+    }
+    .flex-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .flex-box{
+        width: 200px;
+        height: auto;
+        padding: 0.6%;
+        background-attachment: fixed;
+        color: white;
+        font-size: 10px;
+        text-align: center;
+        line-height: auto;
+        border-radius: 20px;
+    }
+    h1{
+        color: lavenderblush;
+        text-align: center;
+        font-size: 50px;
+    }
+    .footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        /*background-color: #F9FAF4;*/
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    h4{
+        font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+        color: rgb(245,229,229);
+    }
